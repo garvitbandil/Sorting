@@ -14,15 +14,15 @@ public class BubbleSort {
       }
    }
    public static void main(String[] args) {
-      int arr[] = { 2, 5, -2, 6, -3, 8, 0, -7, -9, 4 };
-      System.out.println("Array Before Bubble Sort");
+      int arr[] = { 2,4,7,12,423,65,23,-12 };
+      System.out.println("Array Before: ");
 
       for(int i = 0; i < arr.length; i++) {
          System.out.print(arr[i] + " ");
       }
       System.out.println();
       bubbleSort(arr);
-      System.out.println("Array After Bubble Sort");
+      System.out.println("Array After: ");
 
       for(int i = 0; i < arr.length; i++) {
          System.out.print(arr[i] + " ");
