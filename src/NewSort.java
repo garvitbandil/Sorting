@@ -19,7 +19,7 @@ public class NewSort {
 		         array[i] = temp;
 		      }
 
-		      for (int i = 0 ;i< size; i++){
+		      for (int i = 0 ;i< size; i++) {
 		         System.out.print(" "+array[i]);
 		      }
 		   }  
